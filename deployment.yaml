@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: paascoe
-        image: acrsauravsrivastav/paascoe:v1.#{$(Build.BuildId)}#
+        image: acrsauravsrivastav/paascoe:v1.#{Build.BuildId}#
         ports:
         - containerPort: 80
 ---
